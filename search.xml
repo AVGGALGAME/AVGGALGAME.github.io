@@ -4,6 +4,99 @@
   
     
     <entry>
+      <title>又一篇文章</title>
+      <link href="/2026/07/12/%E5%8F%88%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2026/07/12/%E5%8F%88%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="也是空的"><a href="#也是空的" class="headerlink" title="也是空的"></a>也是空的</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> markdown </category>
+          
+          <category> hexo </category>
+          
+          <category> 学习 </category>
+          
+          <category> 调试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 调试 </tag>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>另一篇文章</title>
+      <link href="/2026/07/12/%E5%8F%A6%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2026/07/12/%E5%8F%A6%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="空的"><a href="#空的" class="headerlink" title="空的"></a>空的</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> markdown </category>
+          
+          <category> hexo </category>
+          
+          <category> 调试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 调试 </tag>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是一篇博客</title>
+      <link href="/2026/07/12/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2026/07/12/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AAA"><a href="#AAA" class="headerlink" title="AAA"></a>AAA</h1><h2 id="BBB"><a href="#BBB" class="headerlink" title="BBB"></a>BBB</h2><p>How are you?</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> markdown </category>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2026/07/12/hello-world/"/>
       <url>/2026/07/12/hello-world/</url>
@@ -24,12 +117,24 @@
         <content type="html"><![CDATA[<h2 id="LALALA"><a href="#LALALA" class="headerlink" title="LALALA"></a>LALALA</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">何意味</span><br></pre></td></tr></table></figure><p>lalala</p><h3 id="lalalala"><a href="#lalalala" class="headerlink" title="lalalala"></a>lalalala</h3><p>lalala</p>]]></content>
       
       
+      <categories>
+          
+          <category> markdown </category>
+          
+          <category> hexo </category>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
       
         <tags>
             
+            <tag> markdown </tag>
+            
             <tag> 学习 </tag>
             
-            <tag> markdown </tag>
+            <tag> hexo </tag>
             
         </tags>
       
