@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>前端部署实验</title>
+      <link href="/2026/07/12/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2%E5%AE%9E%E9%AA%8C/"/>
+      <url>/2026/07/12/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2%E5%AE%9E%E9%AA%8C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前端部署实验报告"><a href="#前端部署实验报告" class="headerlink" title="前端部署实验报告"></a>前端部署实验报告</h1><h2 id="一-实验目的"><a href="#一-实验目的" class="headerlink" title="一.实验目的"></a>一.实验目的</h2><p>理解下图所示的全链路所涉及的技术栈、工作流</p><p><pre class="mermaid">graph LR;A["2.Hexo生成静态页面"];B{"3.部署静态博客"};C["3.b.1 Linux虚拟机搭建"];D["3.b.2 SSH远程管理配置"];E["1.项目与代码库配置"];F["3.a.2 GitAction自动部署"];G["3.a.1 GitHub Pages部署博客"];H["3.b.3 Linux Nginx部署博客"];E --> A --> B;B --> |A:Github托管| F --> G;B --> |B:Linux虚拟机部署| C --> D --> H;</pre></p><h2 id="二-实验环境"><a href="#二-实验环境" class="headerlink" title="二.实验环境"></a>二.实验环境</h2><ul><li>操作系统：Windows 11 家庭版 26H2 Insider Preview </li><li>虚拟机管理器：Oracle Virtual Box 7.2.2</li><li>虚拟机：Ubuntu-25.04-desktop-amd64 8GB+64GB</li><li>网络拓扑：Host-Only + NAT</li><li>静态博客框架：Hexo</li></ul><h2 id="三-实验过程"><a href="#三-实验过程" class="headerlink" title="三.实验过程"></a>三.实验过程</h2><h3 id="1-项目与代码库配置"><a href="#1-项目与代码库配置" class="headerlink" title="1.项目与代码库配置"></a>1.项目与代码库配置</h3><ol><li>通过Cisco Packet Tracer创建了一个网络拓扑，了解计算机间的通信方式</li></ol><p><img src="/img/lesson_pic/Snipaste_2026-07-07_20-51-02.png" alt="网络拓扑图"></p><ol><li>Vscode及git早已配置完成，不多做赘述</li></ol><p><img src="/img/lesson_pic/Snipaste_2026-07-12_20-21-18.png" alt="Vscode配置"><br><img src="/img/lesson_pic/Snipaste_2026-07-12_20-21-18.png" alt="git配置"></p><ol><li>Node.js环境已配置完成，后在Windows环境中多使用npm，不多做赘述</li></ol><h3 id="2-Hexo生成静态页面"><a href="#2-Hexo生成静态页面" class="headerlink" title="2.Hexo生成静态页面"></a>2.Hexo生成静态页面</h3><ol><li>创建Hexo项目，并生成静态页面</li></ol><p><img src="/img/lesson_pic/Snipaste_2026-07-09_18-35-15.png" alt="hexo_init"></p><ol><li>静态页面生成成功</li></ol><p><img src="/img/lesson_pic/Snipaste_2026-07-09_18-48-30.png" alt="hexo_success"></p><ol><li>butterfly主题魔改美化+挂载CSS样式构建一图流</li></ol><p><img src="/img/lesson_pic/Snipaste_2026-07-11_21-46-20.png" alt="CSS遮罩配置"><br><img src="/img/lesson_pic/Snipaste_2026-07-12_20-30-34.png" alt="最终效果"><br><img src="/img/lesson_pic/Snipaste_2026-07-12_20-30-56.png" alt="最终效果"></p><h2 id="3-部署静态博客"><a href="#3-部署静态博客" class="headerlink" title="3.部署静态博客"></a>3.部署静态博客</h2><p>分两种方式部署博客：A:Github托管 B:Linux虚拟机部署</p><h3 id="3-a-1-GitHub-Pages部署博客"><a href="#3-a-1-GitHub-Pages部署博客" class="headerlink" title="3.a.1 GitHub Pages部署博客"></a>3.a.1 GitHub Pages部署博客</h3><ol><li>创建GitHub Pages部署仓库，并手动上传静态页面文件</li></ol><p><img src="/img/lesson_pic/Snipaste_2026-07-09_19-11-02.png" alt="最终效果"><br><img src="/img/lesson_pic/Snipaste_2026-07-09_19-35-47.png" alt="最终效果"></p><h3 id="3-a-2-GitAction自动部署"><a href="#3-a-2-GitAction自动部署" class="headerlink" title="3.a.2 GitAction自动部署"></a>3.a.2 GitAction自动部署</h3><ol><li>创建my-blog源码仓库，配置GitAction为每次push时自动生成静态页面并上传到GitHub Pages仓库部署</li></ol><p><img src="/img/lesson_pic/Snipaste_2026-07-12_02-05-18.png" alt="workflow"><br><img src="/img/lesson_pic/Snipaste_2026-07-12_12-26-02.png" alt="最终效果"><br><img src="/img/lesson_pic/Snipaste_2026-07-12_12-56-07.png" alt="最终效果"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 报告 </category>
+          
+          <category> 网络，软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 报告 </tag>
+            
+            <tag> 网络 </tag>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>又一篇文章</title>
       <link href="/2026/07/12/%E5%8F%88%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2026/07/12/%E5%8F%88%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
